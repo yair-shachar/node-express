@@ -1,4 +1,5 @@
-const uuid = require('uuid').v4;
+// const uuid = require('uuid').v4; Original uuid
+const {v4:uuid} = require('uuid');
 const { validationResult } = require('express-validator');
 
 const HttpError = require('../models/http-error');
